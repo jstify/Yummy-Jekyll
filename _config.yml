@@ -7,7 +7,7 @@
 
 # Site settings
 title: UX Developer
-name: Narendra Kurapati
+name: jstify (Narendra Kurapati)
 email: kurapati.narendra@gmail.com
 location: Hyderabad, India
 company: ''
@@ -72,7 +72,7 @@ navs:
     label: Bookmark
 
   -
-    href: https://about.me/narendrakurapati
+    href: https://in.linkedin.com/in/narendrakurapati
     label: About
 
 # Sidebar to show popular repo
