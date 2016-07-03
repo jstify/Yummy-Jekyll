@@ -6,20 +6,21 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
-title: Yummy Theme # ex. I m Chuan
-name: Your Name # ex. DONGChuan
-email: my_email_address@lalala.com
-location: My location # ex. Nice, France
-company: MyCompany
-company_url: my_company_website
-github_url: my_github_url # ex. https://github.com/DONGChuan
-description: description_of_your_web_site
+title: UX Developer
+name: Narendra Kurapati (@jstify)
+email: kurapati.narendra@gmail.com
+location: Hyderabad, India
+company: ''
+company_url: ''
+github_url: https://github.com/jstify
+description: My understandings about the topics
 favicon: favicon.png # Image must be in assets/images
 
 # The base hostname & protocol for your site
 # For local test, please use http://localhost:4000
-# For production, use your github page url. ex. http://dongchuan.github.io
-url: http://localhost:4000
+# For production, use your github page url. ex. http://jstify.github.io
+#url: http://localhost:4000
+url: http://jstify.github.io
 
 ## Gem
 gems:
@@ -46,7 +47,7 @@ kramdown:
   enable_coderay: true
 
 # Disque
-disque: my_disque_settings # ex. httpdongchuangithubio.disqus.com
+disque: jstify.disqus.com
 
 # Pagination
 paginate: 10
@@ -81,11 +82,9 @@ side_bar_repo_limit: 5 # Number of repos to show
 analytics :
   provider : google
   google :
-      tracking_id : 'tracking_id'  # ex. UA-72165600-X
+      tracking_id : 'UA-80236653-1'
 
 
 # For about.html. Fell free to create your own!
-skill_software_keywords: [Java, C, C++, Qt, Python, MySQL, Oracle, SQLite, PL/SQL, Design Patterns]
-skill_j2ee_keywords: [Spring, Struct, Hibernet, MyBatis, JSP]
-skill_web_keywords: [HTML, CSS, JS, JQuery, Ajax, AngularJS, NodeJS, ExpressJS, MongoDB, Redis, PHP, Symfony, Boostrap]
-skill_mobile_app_keywords: [Android, Sketch UI Desgin]
+skill_web_keywords: [HTML, CSS, JS, JQuery, Ajax, AngularJS, ReactJS, PrototypeJS, NodeJS, ExpressJS, MongoDB, Boostrap]
+skill_mobile_hybrid_app_keywords: [Cordova, Phonegap, Ionic]
