@@ -74,7 +74,6 @@ navs:
   -
     href: https://about.me/narendrakurapati
     label: About Me
-	target: '_blank'
 
 # Sidebar to show popular repo
 side_bar_repo_limit: 5 # Number of repos to show
