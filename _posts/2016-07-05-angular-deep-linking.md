@@ -12,11 +12,8 @@ Deep Linking
 Deep linking is the usage of the URL, which will take to specific page (or content) directly without traversing application from home page [1]. It helps in easily searchable and indexed in search engines like Google, Yahoo & etc.
 
 **Examples for deep linking urls**:
-
 http://www.divami.com/blog/angular-deep-linking/
-
 https://www.linkedin.com/groups/4314060/profile
-
 https://www.facebook.com/pages/JavaScript/113124472034820
  
  
@@ -25,7 +22,7 @@ Deep Linking in Angular
 **With '#'**:
 Angular by default supports deep linking using **'#'**.
 
-Ex: https://www.deeplinking.com#/deep/linking
+**Ex**: https://www.deeplinking.com#/deep/linking
 
 It has following drawbacks
 
@@ -39,7 +36,7 @@ It has following drawbacks
  
 1. **Enable html5Mode**: We have to enable this in application config file.
 
-	> $locationProvider.html5Mode(true).hashPrefix('!');
+	> `$locationProvider.html5Mode(true).hashPrefix('!');`
 
 	Some browsers don't support html5Mode, for that we need to add hashPrefix('!').
 
@@ -50,7 +47,7 @@ It has following drawbacks
 	After enabling html5Mode, files may not load correctly. To fix this we have to set
 
     > `<base `**`href="/"`**` />`
-	or
+	`or`
     `<script `**`src="/vendor/angular.js"`**`></script>`
 
 	**Note**: If you mention href value as **'/'**, it will refer to server url. If you want to point to other domain path, which can set to href (Ex: In localhost it will not work with **'/'**, so we need to mention it as `<base href="http://localhost/appFolder/" />`
@@ -70,6 +67,7 @@ It has following drawbacks
 	**Note**: If you are using `debug.html` for development and `index.html` for production, then you have to redirect to debug.html instead of index.html for development purpose.
 
 4. You need to remove **'#'s** before urls if you use any. We use it when we use  $routeProvider as follows:
+
 	> `<a href="#deep/linking">Deep Linking</a>`
 
 **References**:
