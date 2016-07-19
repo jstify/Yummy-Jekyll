@@ -12,9 +12,9 @@ Deep Linking
 Deep linking is the usage of the URL, which will take to specific page (or content) directly without traversing application from home page [1]. It helps in easily searchable and indexed in search engines like Google, Yahoo & etc.
 
 **Examples for deep linking urls**:
-http://www.divami.com/blog/angular-deep-linking/
-https://www.linkedin.com/groups/4314060/profile
-https://www.facebook.com/pages/JavaScript/113124472034820
+	http://www.divami.com/blog/angular-deep-linking/
+	https://www.linkedin.com/groups/4314060/profile
+	https://www.facebook.com/pages/JavaScript/113124472034820
  
  
 Deep Linking in Angular
