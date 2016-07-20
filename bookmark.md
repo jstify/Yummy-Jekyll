@@ -12,4 +12,4 @@ menu: Bookmark
 - [Gridster.js](http://gridster.net/) - Build a drag & drop multi column grid
 
 ## Icons
-- [Iconfinder](https://www.iconfinder.com/) - Find nice desgned icons for development purpose
+- [Iconfinder](https://www.iconfinder.com/) - Find nice designed icons for development purpose
