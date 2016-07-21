@@ -13,3 +13,7 @@ menu: Bookmark
 
 ## Icons
 - [Iconfinder](https://www.iconfinder.com/) - Find nice designed icons for development purpose
+
+## Markdown
+- [Mastering Markdown](https://guides.github.com/features/mastering-markdown/) - Cn become master in markdown writting in 3 minutes
+- [Emoji](http://www.emoji-cheat-sheet.com/) - List og Emoji's suppoted by github and Markdown
