@@ -3,7 +3,15 @@ layout: post
 title: Angular Deep Linking
 category: AngularJS
 tags: [angular, deep linking]
+directUrl: http://www.divami.com/blog/deep-linking-angular/
 ---
+
+Angular by default provides deep linking using '#'. These urls may not inexed in search engines due to '#'. We can get rid of it using [Read more...](http://www.divami.com/blog/deep-linking-angular/)
+
+
+<!--
+
+
 
 Implementing deep linking in AngularJS applications.
 
@@ -73,4 +81,4 @@ It has following drawbacks
 **References**:
 
 1. https://en.wikipedia.org/wiki/Deep_linking
-2. https://github.com/angular-ui/ui-router/wiki/Frequently-Asked-Questions#how-to-configure-your-server-to-work-with-html5mode
+2. https://github.com/angular-ui/ui-router/wiki/Frequently-Asked-Questions#how-to-configure-your-server-to-work-with-html5mode-->
