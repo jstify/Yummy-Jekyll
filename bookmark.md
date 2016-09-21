@@ -17,3 +17,6 @@ menu: Bookmark
 ## Markdown
 - [Mastering Markdown](https://guides.github.com/features/mastering-markdown/) - Cn become master in markdown writting in 3 minutes
 - [Emoji](http://www.emoji-cheat-sheet.com/) - List og Emoji's suppoted by github and Markdown
+
+## తెలుగు (Telugu)
+- [లేఖిని](http://lekhini.org/) - Simple to write in Telugu using English letters
