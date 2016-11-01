@@ -4,7 +4,7 @@ title: CDN Integration for Web Applications
 category: Web Apps
 tags: [CDN, CDN Integration, Web Application, Javascript]
 ---
-Integrating CDN with Wordpress, Magento & etc is easy process. Web applications integration needs lot of changes. To implement in simple steps[...](http://jstify.github.io/web%20apps/2016/11/01/cdn-integration.html)
+Integrating CDN with Wordpress, Magento & etc is easy process. Web applications integration needs lot of changes. We can implement in simple steps using this article.
 
 ## General Process
 
