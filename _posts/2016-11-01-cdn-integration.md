@@ -9,8 +9,10 @@ Integrating CDN with Wordpress, Magento & etc is easy process. Web applications 
 ## General Process
 
 To integrate CDN in web apps:
+
 * We Need to prepend CDN url to all links in index.hmtl file, But **HTML and Images will be load from Main server not from CDN**
 * We need to prepend CDN url to image url also if you want to load it CDN, **still images which are used in css will load from main server only**
+
 
 https://www.maxcdn.com/one/tutorial/custom-cdn-integration/
 
