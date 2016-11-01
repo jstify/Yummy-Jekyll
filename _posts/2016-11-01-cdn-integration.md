@@ -14,9 +14,11 @@ To integrate CDN in web apps:
 * We need to prepend CDN url to image url also if you want to load it CDN, **still images which are used in css will load from main server only**
 
 
-https://www.maxcdn.com/one/tutorial/custom-cdn-integration/
+**Links**
 
-http://hippocurious.com/setup-a-cdn-to-speed-up-your-website/
+[Custom CDN Integration](https://www.maxcdn.com/one/tutorial/custom-cdn-integration/)
+
+[Setup a CDN to speed up your website](http://hippocurious.com/setup-a-cdn-to-speed-up-your-website/)
 
 
 We need to make a lot of changes to load every thing from CDN if we going to prepend CDN to every url. 
