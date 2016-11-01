@@ -4,7 +4,7 @@ title: CDN Integration for Web Applications
 category: Web Apps
 tags: [CDN, CDN Integration, Web Application, Javascript]
 ---
-Integrating CDN with Wordpress, Magento & ect is easy process. To integrate with web applications, it needs to lot of changes. To implement in simple steps[...](http://jstify.github.io/web%20apps/2016/11/01/cdn-integration.html)
+Integrating CDN with Wordpress, Magento & etc is easy process. Web applications integration needs lot of changes. To implement in simple steps[...](http://jstify.github.io/web%20apps/2016/11/01/cdn-integration.html)
 
 ## General Process
 
@@ -26,24 +26,24 @@ We need to make a lot of changes to load every thing from CDN if we going to pre
 If you are planning to load all files from CDN expect the service/ajax calls, we can implement in simple steps:
 
 
-**Step 1**
+### Step 1
 Add CDN url to base tag in index.html. `ex: <base  href="cdn.url.com">`
 
 
-**Step2**
+### Step2
 Maintain Server URL in one variable and prepend to api when you are making ajax calls.
 
 
 > //example
-
+> 
 > var sererUrl = "www.mainurl.com";
-
+> 
 > var apiName = "getData";
-
+> 
 > $.get( sererUrl +apiName , function( data ) {
-
+> 
 >     //success response
-
+> 
 > });
 
 **Note**: If you are using Angular and facing block listing issue, Please refer to [Secure Url](https://docs.angularjs.org/api/ng/provider/$sceDelegateProvider)
