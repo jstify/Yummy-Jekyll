@@ -36,9 +36,13 @@ Maintain Server URL in one variable and prepend to api when you are making ajax 
 `
 //example 
 var sererUrl = "www.mainurl.com";
+
 var apiName = "getData";
+
 $.get( sererUrl +apiName , function( data ) {
+
 //success response
+
 });
 `
 
