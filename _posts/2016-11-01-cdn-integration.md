@@ -37,9 +37,13 @@ Maintain Server URL in one variable and prepend to api when you are making ajax 
 > //example
 
 > var sererUrl = "www.mainurl.com";
+
 > var apiName = "getData";
+
 > $.get( sererUrl +apiName , function( data ) {
+
 >     //success response
+
 > });
 
 **Note**: If you are using Angular and facing block listing issue, Please refer to [Secure Url](https://docs.angularjs.org/api/ng/provider/$sceDelegateProvider)
