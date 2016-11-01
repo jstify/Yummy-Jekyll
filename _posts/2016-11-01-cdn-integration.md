@@ -42,7 +42,7 @@ Maintain Server URL in one variable and prepend to api when you are making ajax 
 > 
 > $.get( sererUrl +apiName , function( data ) {
 > 
->     //success response
+>   //success response
 > 
 > });
 
