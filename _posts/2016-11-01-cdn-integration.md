@@ -4,9 +4,9 @@ title: CDN Integration for Web Applications
 category: Web Apps
 tags: [CDN, CDN Integration, Web Application, Javascript]
 ---
-Integrating CDN with Wordpress, Magento & ect are very easy. To integrate with web applications, it needs to lot of changes. How implement it in simmple steps [read more...](http://jstify.github.io/web%20apps/2016/11/01/cdn-integration.html)
+Integrating CDN with Wordpress, Magento & ect is easy process. To integrate with web applications, it needs to lot of changes. To implement in simple steps[...](http://jstify.github.io/web%20apps/2016/11/01/cdn-integration.html)
 
-#General Process
+## General Process
 
 To integrate CDN in web apps:
 * We Need to prepend CDN url to all links in index.hmtl file, But **HTML and Images will be load from Main server not from CDN**
@@ -21,7 +21,7 @@ We need to make a lot of changes to load every thing from CDN if we going to pre
 
 
 
-#Simple Process
+## Simple Process
 
 If you are planning to load all files from CDN expect the service/ajax calls, we can implement in simple steps:
 
@@ -33,16 +33,13 @@ Add CDN url to base tag in index.html. `ex: <base  href="cdn.url.com">`
 **Step2**
 Maintain Server URL in one variable and prepend to api when you are making ajax calls.
 
+
 `
 //example 
 var sererUrl = "www.mainurl.com";
-
 var apiName = "getData";
-
 $.get( sererUrl +apiName , function( data ) {
-
 //success response
-
 });
 `
 
